@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Book Your Stay | Maya Hostel El Nido</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+
+    .booking-page{
+      min-height:100vh;
+      padding:140px 8%;
+      background:#111;
+      color:white;
+    }
+
+    .booking-header{
+      text-align:center;
+      margin-bottom:80px;
+    }
+
+    .booking-header h1{
+      font-size:4rem;
+      margin-bottom:20px;
+      font-family:'Poppins',sans-serif;
+    }
+
+    .booking-header p{
+      color:#bbb;
+      max-width:700px;
+      margin:auto;
+      line-height:1.8;
+    }
+
+    .booking-grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+      gap:35px;
+    }
+
+    .booking-card{
+      background:#1a1a1a;
+      border-radius:24px;
+      overflow:hidden;
+      transition:0.3s ease;
+    }
+
+    .booking-card:hover{
+      transform:translateY(-8px);
+    }
+
+    .booking-card img{
+      width:100%;
+      height:300px;
+      object-fit:cover;
+    }
+
+    .booking-content{
+      padding:35px;
+    }
+
+    .booking-content h2{
+      font-size:2rem;
+      margin-bottom:15px;
+    }
+
+    .booking-content p{
+      color:#bbb;
+      line-height:1.8;
+      margin-bottom:25px;
+    }
+
+    .booking-features{
+      list-style:none;
+      margin-bottom:30px;
+    }
+
+    .booking-features li{
+      margin-bottom:12px;
+      color:#ddd;
+    }
+
+    .booking-price{
+      font-size:1.4rem;
+      margin-bottom:30px;
+      color:#E7D3B0;
+      font-weight:700;
+    }
+
+    .booking-btn{
+      display:inline-block;
+      background:#E7D3B0;
+      color:black;
+      padding:16px 28px;
+      border-radius:50px;
+      font-weight:700;
+    }
+
+   @media(max-width:768px){
+
+  .nav-links{
+    display:none;
+  }
+
+  .logo img{
+    height:70px;
+  }
+
+  .hero h1,
+  .social-content h2,
+  .cta-content h2,
+  .section-header h2,
+  .experience-content h2{
+    font-size:2.5rem;
+  }
+
+}
+
+  </style>
+
+</head>
+
+<body>
+
+  <header class="navbar">
+
+   <div class="logo">
+  <img src="assets/logo.png" alt="Maya Hostel Logo">
+</div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#rooms">Rooms</a></li>
+        <li><a href="index.html#gallery">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <a href="index.html" class="nav-btn">
+      Back Home
+    </a>
+
+  </header>
+
+  <section class="booking-page">
+
+    <div class="booking-header">
+
+      <span class="section-tag">
+        BOOK YOUR STAY
+      </span>
+
+      <h1>
+        Choose Your Room
+      </h1>
+
+      <p>
+        Stay in the heart of El Nido and experience
+        rooftop sunsets, island adventures,
+        and unforgettable moments.
+      </p>
+
+    </div>
+
+    <div class="booking-grid">
+
+      <!-- ROOM 1 -->
+      <div class="booking-card">
+
+        <img src="assets/room1.jpg" alt="">
+
+        <div class="booking-content">
+
+          <h2>Mixed Dorm</h2>
+
+          <p>
+            Comfortable social dorms designed
+            for backpackers and travelers.
+          </p>
+
+          <ul class="booking-features">
+            <li>✓ Air Conditioning</li>
+            <li>✓ Fast WiFi</li>
+            <li>✓ Personal Lockers</li>
+          </ul>
+
+     
+
+          <a href="https://www.hostelworld.com/pwa/hosteldetails.php/Maya-Hostel-El-Nido/El-Nido/329326?from=2026-05-10&to=2026-05-13&guests=2" class="booking-btn" target="_blank">   RESERVE NOW </a>
+            
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- ROOM 2 -->
+      <div class="booking-card">
+
+        <img src="assets/room2.jpg" alt="">
+
+        <div class="booking-content">
+
+          <h2>Female Dorm</h2>
+
+          <p>
+            Comfortable female-only dorms
+            with a social atmosphere.
+          </p>
+
+          <ul class="booking-features">
+            <li>✓ Air Conditioning</li>
+            <li>✓ Fast WiFi</li>
+            <li>✓ Secure Access</li>
+          </ul>
+
+        
+
+          <a href="https://www.hostelworld.com/pwa/hosteldetails.php/Maya-Hostel-El-Nido/El-Nido/329326?from=2026-05-10&to=2026-05-13&guests=2" class="booking-btn" target="_blank">   RESERVE NOW </a>
+            
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- ROOM 3 -->
+      <div class="booking-card">
+
+        <img src="assets/room3.jpg" alt="">
+
+        <div class="booking-content">
+
+          <h2>Private Room</h2>
+
+          <p>
+            Relax and recharge in a private room
+            after your El Nido adventures.
+          </p>
+
+          <ul class="booking-features">
+            <li>✓ Private Bathroom</li>
+            <li>✓ Air Conditioning</li>
+            <li>✓ Fast WiFi</li>
+          </ul>
+
+         
+
+          <a href="https://www.hostelworld.com/pwa/hosteldetails.php/Maya-Hostel-El-Nido/El-Nido/329326?from=2026-05-10&to=2026-05-13&guests=2" class="booking-btn" target="_blank">   RESERVE NOW </a>
+            
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</body>
+</html>
